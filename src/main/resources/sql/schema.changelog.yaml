@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - changeSet:
+      id: create.table.balance
+      author: akochetkov
+      failOnError: true
+      validCheckSum: ANY
+      changes:
+        - sqlFile: { dbms: 'h2', path: sql/updates/001.create.balance.table.sql }
+  - changeSet:
+      id: create.table.histoty
+      author: akochetkov
+      failOnError: true
+      validCheckSum: ANY
+      changes:
+        - sqlFile: { dbms: 'h2', path: sql/updates/002.create.history.table.sql }
+  - changeSet:
+      id: create.table.user
+      author: akochetkov
+      failOnError: true
+      validCheckSum: ANY
+      changes:
+        - sqlFile: { dbms: 'h2', path: 003.create.user.table.sql}
