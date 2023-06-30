@@ -15,7 +15,7 @@ Getting Started
 
 ### Clone the repository:
 ```shell
-git clone https://github.com/your-repo.git
+git clone https://github.com/alkochekov/balance-service
 ```
 ### Build the project:
 ```shell
